@@ -10,3 +10,7 @@ Updated: 2024-01-01 11:46:04
 
 */
 
+.raque-responsive-menu .logo img,
+.navbar-brand img {
+   display: none;
+}
