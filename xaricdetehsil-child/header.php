@@ -97,6 +97,7 @@ if ( function_exists( 'wp_body_open' ) ) {
                <div class="logo">
                   <?php if( kavkaz_get_option('logo_setting') == 'logo' ): ?>
                   <a title="<?php bloginfo('name'); ?>" href="<?php echo home_url('/'); ?>">
+                  <img src="<?php echo kavkaz_get_option( 'logo_header' ); ?>" width="164" height="45" alt="<?php bloginfo('name'); ?>">
                   </a>
                   <?php elseif( kavkaz_get_option('logo_setting') == 'title' ): ?>	  
                   <a href="<?php echo home_url('/'); ?>" title="<?php bloginfo('name'); ?>">
@@ -112,6 +113,7 @@ if ( function_exists( 'wp_body_open' ) ) {
             <nav class="navbar navbar-expand-md navbar-light">
                <?php if( kavkaz_get_option('logo_setting') == 'logo' ): ?>
                <a title="<?php bloginfo('name'); ?>" href="<?php echo home_url('/'); ?>" class="navbar-brand">
+               <img src="<?php echo kavkaz_get_option( 'logo_header' ); ?>" width="164" height="45" alt="<?php bloginfo('name'); ?>" title="<?php bloginfo('name'); ?>">
                </a>
                <?php elseif( kavkaz_get_option('logo_setting') == 'title' ): ?>	  
                <a href="<?php echo home_url('/'); ?>" title="<?php bloginfo('name'); ?>" class="navbar-brand">
@@ -151,6 +153,7 @@ if ( function_exists( 'wp_body_open' ) ) {
             <nav class="navbar navbar-expand-md navbar-light">
                <?php if( kavkaz_get_option('logo_setting') == 'logo' ): ?>
                <a title="<?php bloginfo('name'); ?>" href="<?php echo home_url('/'); ?>" class="navbar-brand">
+               <img src="<?php echo kavkaz_get_option( 'logo_header' ); ?>" width="164" height="45" alt="<?php bloginfo('name'); ?>">
                </a>
                <?php elseif( kavkaz_get_option('logo_setting') == 'title' ): ?>	  
                <a href="<?php echo home_url('/'); ?>" title="<?php bloginfo('name'); ?>" class="navbar-brand">
