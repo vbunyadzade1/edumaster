@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
    <div class="container">
       <div class="section-title">
          <span class="sub-title">Qəbullarımız</span>
-         <h2>Xaricde Tehsil Qəbulları 2023</h2>
+         <h2>Xaricde Tehsil Qəbulları 2025</h2>
          <p> Peşəkar xidmət əsl peşəkarlarla! Hər ölkəyə uyğun mütəxəssislərlə ideal və qısa zamanda nəticələrə sahib ol!</p>
       </div>
       <div class="team-slides owl-carousel owl-theme">
